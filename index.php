@@ -38,18 +38,22 @@ session_start();
       </div>
 
     </main>
+
 <?php
-
   include_once 'footer.php';
+?>
 
-  } else {
+</body>
+</html>
 
+<?php
+  } else {  
 ?>
 
     <div class="container my-4">
       <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg bg-light">
         <div class="col-lg-12 p-3 p-lg-5 pt-lg-3">
-          <h1 class="display-5 fw-bold lh-1">Úspěšně jste se přihlásili!!</h1>
+          <h1 class="display-5 fw-bold lh-1">Úspěšně jste se přihlásil !!</h1>
         </div>
       </div>
     </div>
@@ -59,10 +63,9 @@ session_start();
 <br>
 <br>
 
-
 <?php
   }
     include_once 'footer.php';
-  ?>
+?>
 </body>
 </html>
