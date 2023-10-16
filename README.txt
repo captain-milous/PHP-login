@@ -1,0 +1,1 @@
+Jednoduchá php stránka pro přihlášení a registraci.
